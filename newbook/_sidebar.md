@@ -1,5 +1,4 @@
-# 目录
-
+<![CDATA[
 * **[返回主页](../)**
 
 ---
@@ -39,3 +38,4 @@
 ## 附录
 * [附录A：实用资源与模板库](appendix/appendix-a-resources-and-templates.md)
 * [附录B：DDAD采纳度与团队效能调研问卷](appendix/appendix-b-survey.md)
+]]>
