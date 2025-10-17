@@ -1,0 +1,164 @@
+<svg width="900" height="1067" viewBox="0 0 900 1067" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 定义 -->
+  <defs>
+    <!-- 主背景渐变 - 保持纵向渐变但改为半透明 -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#1E293B" stop-opacity="0.8" />
+    </linearGradient>
+    
+    <!-- DDAD概念渐变 -->
+    <linearGradient id="ddadGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="50%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    
+    <!-- 标题渐变 -->
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    
+    <!-- 副标题渐变 -->
+    <linearGradient id="subtitleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    
+    <!-- 科技装饰渐变 -->
+    <linearGradient id="techGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    
+    <!-- 网格图案 - 调整透明度 -->
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    </pattern>
+    
+    <!-- 光晕效果 -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    
+    <!-- 文档图标滤镜 -->
+    <filter id="documentGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    
+    <!-- 半透明背景效果 -->
+    <filter id="translucentBg" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="20" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  
+  <!-- 移除主背景填充，保持透明 -->
+  
+  <!-- 半透明网格背景 -->
+  <rect width="900" height="1067" fill="url(#grid)" opacity="0.3"/>
+  
+  <!-- 装饰性圆形 - 调整位置以适应更宽的布局 -->
+  <circle cx="150" cy="200" r="150" fill="rgba(8,145,178,0.05)"/>
+  <circle cx="750" cy="800" r="180" fill="rgba(139,92,246,0.05)"/>
+  
+  <!-- 动态波形线 - 调整为更宽的纵向流动 -->
+  <path d="M200,0 Q280,300 200,600 T200,1200" stroke="url(#titleGradient)" stroke-width="2" fill="none" stroke-opacity="0.3"/>
+  <path d="M450,0 Q530,300 450,600 T450,1200" stroke="url(#subtitleGradient)" stroke-width="2" fill="none" stroke-opacity="0.2"/>
+  <path d="M700,0 Q780,300 700,600 T700,1200" stroke="url(#techGradient)" stroke-width="1" fill="none" stroke-opacity="0.2"/>
+  
+  <!-- 核心概念装饰背景 - 调整为垂直方向，居中放置 -->
+  <rect x="250" y="300" width="400" height="150" rx="20" ry="20" fill="rgba(15, 23, 42, 0.6)" stroke="url(#ddadGradient)" stroke-width="3" opacity="0.9"/>
+  
+  <!-- 装饰性科技元素 - 调整位置 -->
+  <g transform="translate(250, 600)" opacity="0.7">
+    <!-- 连接线 -->
+    <line x1="0" y1="0" x2="300" y2="-50" stroke="url(#titleGradient)" stroke-width="1.5" opacity="0.5"/>
+    <line x1="0" y1="0" x2="200" y2="50" stroke="url(#subtitleGradient)" stroke-width="1.5" opacity="0.5"/>
+    <line x1="0" y1="0" x2="-100" y2="30" stroke="url(#techGradient)" stroke-width="1.5" opacity="0.5"/>
+    
+    <!-- 节点 -->
+    <circle cx="300" cy="-50" r="8" fill="rgba(8,145,178,0.3)" stroke="url(#titleGradient)" stroke-width="1"/>
+    <circle cx="200" cy="50" r="8" fill="rgba(16,185,129,0.3)" stroke="url(#subtitleGradient)" stroke-width="1"/>
+    <circle cx="-100" cy="30" r="8" fill="rgba(139,92,246,0.3)" stroke="url(#techGradient)" stroke-width="1"/>
+  </g>
+  
+  <!-- 中央文档图标 - 调整大小和位置，居中放置 -->
+  <g transform="translate(450, 500)" filter="url(#documentGlow)">
+    <!-- 文档纸张 - 半透明 -->
+    <rect x="-100" y="-70" width="200" height="140" rx="5" ry="5" fill="rgba(255,255,255,0.08)" stroke="url(#titleGradient)" stroke-width="2" opacity="0.9"/>
+    
+    <!-- 文档装饰线条 -->
+    <line x1="-80" y1="-50" x2="80" y2="-50" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+    <line x1="-80" y1="-30" x2="80" y2="-30" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+    <line x1="-80" y1="-10" x2="60" y2="-10" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+    <line x1="-80" y1="10" x2="70" y2="10" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+    <line x1="-80" y1="30" x2="50" y2="30" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+    <line x1="-80" y1="50" x2="30" y2="50" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+    
+    <!-- 文档图标装饰元素 -->
+    <circle cx="90" cy="-50" r="8" fill="url(#subtitleGradient)" opacity="0.8"/>
+    <polygon points="-90,50 -75,70 -60,50" fill="url(#techGradient)" opacity="0.8"/>
+  </g>
+  
+  <!-- 标题区域 - 调整字体大小和位置，居中放置 -->
+  <g filter="url(#glow)">
+    <text fill="url(#titleGradient)" font-family="'Microsoft YaHei', sans-serif" font-size="56" font-weight="bold" letter-spacing="0.05em" text-anchor="middle" x="450" y="150">DDAD 图书馆</text>
+  </g>
+  
+  <!-- 核心概念区域 - 调整字体大小和位置，居中放置 -->
+  <g filter="url(#glow)">
+    <text fill="url(#ddadGradient)" font-family="'Microsoft YaHei', sans-serif" font-size="42" font-weight="bold" letter-spacing="0.05em" text-anchor="middle" x="450" y="380">Document-Driven Agile Development</text>
+  </g>
+  
+  <!-- DDAD 缩写 - 超大字体突出显示，居中放置 -->
+  <g filter="url(#glow)">
+    <text fill="white" font-family="'Microsoft YaHei', sans-serif" font-size="84" font-weight="bold" letter-spacing="0.1em" text-anchor="middle" x="450" y="460">DDAD</text>
+    <text fill="url(#ddadGradient)" font-family="'Microsoft YaHei', sans-serif" font-size="84" font-weight="bold" letter-spacing="0.1em" text-anchor="middle" x="450" y="460" opacity="0.7">DDAD</text>
+  </g>
+  
+  <!-- 副标题区域 - 调整字体大小和位置，居中放置 -->
+  <text fill="white" font-family="'Microsoft YaHei', sans-serif" font-size="32" text-anchor="middle" x="450" y="530">文档驱动敏捷开发三部曲</text>
+  
+  <!-- 概念连接图标 - 垂直排列，居中放置 -->
+  <g transform="translate(450, 650)" opacity="0.9">
+    <!-- 文档图标 -->
+    <rect x="-80" y="-120" width="160" height="60" rx="4" ry="4" fill="rgba(255,255,255,0.1)" stroke="#06B6D4" stroke-width="2"/>
+    <line x1="-70" y1="-105" x2="70" y2="-105" stroke="#06B6D4" stroke-width="1.5"/>
+    <line x1="-70" y1="-90" x2="70" y2="-90" stroke="#06B6D4" stroke-width="1.5"/>
+    <line x1="-70" y1="-75" x2="70" y2="-75" stroke="#06B6D4" stroke-width="1.5"/>
+    
+    <!-- 箭头 - 垂直方向 -->
+    <path d="M0,-60 L0,-20 L10,-30 L0,-20 L-10,-30" stroke="#10B981" stroke-width="2" fill="none"/>
+    
+    <!-- 敏捷图标 -->
+    <polygon points="-35,0 35,0 0,50" fill="rgba(255,255,255,0.1)" stroke="#10B981" stroke-width="2"/>
+    
+    <!-- 箭头 - 垂直方向 -->
+    <path d="M0,50 L0,90 L10,80 L0,90 L-10,80" stroke="#3B82F6" stroke-width="2" fill="none"/>
+    
+    <!-- 开发图标 -->
+    <rect x="-35" y="90" width="70" height="60" rx="4" ry="4" fill="rgba(255,255,255,0.1)" stroke="#3B82F6" stroke-width="2"/>
+    <path d="M-25,120 L25,120 L30,110 L30,130 L25,140 L-25,140 L-30,130 L-30,110 L-25,120" fill="#3B82F6" opacity="0.6"/>
+  </g>
+  
+  <!-- 垂直标志线 -->
+  <line x1="350" y1="780" x2="550" y2="780" stroke="url(#subtitleGradient)" stroke-width="2"/>
+  
+  <!-- 底部装饰元素 -->
+  <polygon points="250,900 230,940 210,900" fill="none" stroke="url(#titleGradient)" stroke-width="1.5" opacity="0.6"/>
+  <polygon points="650,900 670,940 690,900" fill="none" stroke="url(#subtitleGradient)" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- 额外的纵向装饰元素 -->
+  <path d="M150,0 Q120,400 150,800" stroke="rgba(255,255,255,0.08)" stroke-width="1" fill="none"/>
+  <path d="M750,0 Q780,400 750,800" stroke="rgba(255,255,255,0.08)" stroke-width="1" fill="none"/>
+  
+  <!-- 添加额外的装饰节点，增强视觉效果 -->
+  <circle cx="100" cy="100" r="3" fill="#06B6D4" opacity="0.6"/>
+  <circle cx="800" cy="100" r="3" fill="#3B82F6" opacity="0.6"/>
+  <circle cx="100" cy="950" r="3" fill="#10B981" opacity="0.6"/>
+  <circle cx="800" cy="950" r="3" fill="#8B5CF6" opacity="0.6"/>
+</svg>

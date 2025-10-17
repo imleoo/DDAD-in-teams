@@ -1,0 +1,133 @@
+<svg width="600" height="800" viewBox="0 0 600 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 定义 -->
+  <defs>
+    <!-- 主背景渐变 -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    
+    <!-- 主标题渐变 -->
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    
+    <!-- 副标题渐变 -->
+    <linearGradient id="subtitleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+    
+    <!-- 紫色渐变 -->
+    <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+    
+    <!-- 网格图案 -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+    </pattern>
+    
+    <!-- 光晕效果 -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    
+    <!-- 团队协作网络效果 -->
+    <mask id="networkMask">
+      <rect width="600" height="800" fill="black"/>
+      <!-- 连接线 -->
+      <line x1="100" y1="200" x2="250" y2="350" stroke="white" stroke-width="1" opacity="0.2"/>
+      <line x1="250" y1="350" x2="400" y2="200" stroke="white" stroke-width="1" opacity="0.2"/>
+      <line x1="400" y1="200" x2="100" y2="200" stroke="white" stroke-width="1" opacity="0.2"/>
+      <line x1="100" y1="400" x2="250" y2="550" stroke="white" stroke-width="1" opacity="0.2"/>
+      <line x1="250" y1="550" x2="400" y2="400" stroke="white" stroke-width="1" opacity="0.2"/>
+      <line x1="400" y1="400" x2="100" y2="400" stroke="white" stroke-width="1" opacity="0.2"/>
+      <line x1="100" y1="600" x2="250" y2="450" stroke="white" stroke-width="1" opacity="0.2"/>
+      <line x1="250" y1="450" x2="400" y2="600" stroke="white" stroke-width="1" opacity="0.2"/>
+      <line x1="400" y1="600" x2="100" y2="600" stroke="white" stroke-width="1" opacity="0.2"/>
+      <!-- 节点 -->
+      <circle cx="100" cy="200" r="4" fill="white" opacity="0.3"/>
+      <circle cx="250" cy="350" r="4" fill="white" opacity="0.3"/>
+      <circle cx="400" cy="200" r="4" fill="white" opacity="0.3"/>
+      <circle cx="100" cy="400" r="4" fill="white" opacity="0.3"/>
+      <circle cx="250" cy="550" r="4" fill="white" opacity="0.3"/>
+      <circle cx="400" cy="400" r="4" fill="white" opacity="0.3"/>
+      <circle cx="100" cy="600" r="4" fill="white" opacity="0.3"/>
+      <circle cx="250" cy="450" r="4" fill="white" opacity="0.3"/>
+      <circle cx="400" cy="600" r="4" fill="white" opacity="0.3"/>
+    </mask>
+  </defs>
+  
+  <!-- 主背景 -->
+  <rect width="600" height="800" fill="url(#bgGradient)"/>
+  
+  <!-- 网格背景 -->
+  <rect width="600" height="800" fill="url(#grid)"/>
+  
+  <!-- 网络连接图案 -->
+  <rect width="600" height="800" mask="url(#networkMask)" fill="rgba(255,255,255,0.03)"/>
+  
+  <!-- 装饰性圆形 -->
+  <circle cx="150" cy="150" r="200" fill="rgba(8,145,178,0.05)"/>
+  <circle cx="450" cy="650" r="180" fill="rgba(139,92,246,0.05)"/>
+  
+  <!-- 动态波形线 -->
+  <path d="M0,250 Q150,180 300,250 T600,250" stroke="url(#titleGradient)" stroke-width="2" fill="none" stroke-opacity="0.4"/>
+  <path d="M0,300 Q150,230 300,300 T600,300" stroke="url(#titleGradient)" stroke-width="2" fill="none" stroke-opacity="0.2"/>
+  <path d="M0,600 Q150,530 300,600 T600,600" stroke="url(#subtitleGradient)" stroke-width="2" fill="none" stroke-opacity="0.3"/>
+  <path d="M0,650 Q150,580 300,650 T600,650" stroke="url(#subtitleGradient)" stroke-width="1" fill="none" stroke-opacity="0.2"/>
+  
+  <!-- 中央装饰圆形 -->
+  <circle cx="300" cy="400" r="150" fill="none" stroke="url(#purpleGradient)" stroke-width="1" stroke-dasharray="5,5" opacity="0.4"/>
+  <circle cx="300" cy="400" r="130" fill="none" stroke="url(#titleGradient)" stroke-width="1" stroke-dasharray="3,3" opacity="0.3"/>
+  <circle cx="300" cy="400" r="110" fill="none" stroke="url(#subtitleGradient)" stroke-width="1" opacity="0.2"/>
+  
+  <!-- 标题区域 -->
+  <g filter="url(#glow)">
+    <text fill="white" font-family="'Orbitron', sans-serif" font-size="48" font-weight="bold" letter-spacing="0.05em" text-anchor="middle">
+      <tspan x="300" y="200">DDAD 团队</tspan>
+      <tspan x="300" y="270">实践指南</tspan>
+    </text>
+  </g>
+  
+  <!-- 副标题区域 -->
+  <g filter="url(#glow)">
+    <text fill="url(#subtitleGradient)" font-family="'Exo 2', sans-serif" font-size="36" font-weight="bold" letter-spacing="0.1em" text-anchor="middle" x="300" y="400">Vibe Coding</text>
+  </g>
+  
+  <!-- 科技元素：团队协作图标 -->
+  <g transform="translate(300, 500)" opacity="0.8">
+    <!-- 中心圆 -->
+    <circle cx="0" cy="0" r="20" fill="rgba(8,145,178,0.2)" stroke="url(#titleGradient)" stroke-width="2"/>
+    
+    <!-- 周围节点 -->
+    <circle cx="0" cy="-50" r="12" fill="rgba(16,185,129,0.2)" stroke="url(#subtitleGradient)" stroke-width="1.5"/>
+    <circle cx="43.3" cy="-25" r="12" fill="rgba(16,185,129,0.2)" stroke="url(#subtitleGradient)" stroke-width="1.5"/>
+    <circle cx="43.3" cy="25" r="12" fill="rgba(16,185,129,0.2)" stroke="url(#subtitleGradient)" stroke-width="1.5"/>
+    <circle cx="0" cy="50" r="12" fill="rgba(16,185,129,0.2)" stroke="url(#subtitleGradient)" stroke-width="1.5"/>
+    <circle cx="-43.3" cy="25" r="12" fill="rgba(16,185,129,0.2)" stroke="url(#subtitleGradient)" stroke-width="1.5"/>
+    <circle cx="-43.3" cy="-25" r="12" fill="rgba(16,185,129,0.2)" stroke="url(#subtitleGradient)" stroke-width="1.5"/>
+    
+    <!-- 连接线 -->
+    <line x1="0" y1="-20" x2="0" y2="-50" stroke="url(#titleGradient)" stroke-width="1.5"/>
+    <line x1="17.3" y1="-10" x2="43.3" y2="-25" stroke="url(#titleGradient)" stroke-width="1.5"/>
+    <line x1="17.3" y1="10" x2="43.3" y2="25" stroke="url(#titleGradient)" stroke-width="1.5"/>
+    <line x1="0" y1="20" x2="0" y2="50" stroke="url(#titleGradient)" stroke-width="1.5"/>
+    <line x1="-17.3" y1="10" x2="-43.3" y2="25" stroke="url(#titleGradient)" stroke-width="1.5"/>
+    <line x1="-17.3" y1="-10" x2="-43.3" y2="-25" stroke="url(#titleGradient)" stroke-width="1.5"/>
+  </g>
+  
+  <!-- 几何装饰元素 -->
+  <polygon points="80,80 120,60 160,80 120,100" fill="none" stroke="url(#titleGradient)" stroke-width="1.5" opacity="0.6"/>
+  <polygon points="520,720 480,740 440,720 480,700" fill="none" stroke="url(#subtitleGradient)" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- 作者信息 -->
+  <text fill="#94A3B8" font-family="'Microsoft YaHei', sans-serif" font-size="20" text-anchor="middle" x="300" y="720">Leoo Bai</text>
+  
+  <!-- 底部科技装饰线 -->
+  <line x1="150" y1="760" x2="450" y2="760" stroke="url(#titleGradient)" stroke-width="2"/>
+</svg>
