@@ -52,4 +52,6 @@ Thumbs.db
 *.pdf
 
 # Vitepress
-.docs/.vitepress/dist/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+docs/.vitepress/theme/styles/custom.css
