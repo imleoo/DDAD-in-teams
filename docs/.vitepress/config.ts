@@ -7,6 +7,11 @@ export default defineConfig({
   srcDir: '.',
   base: '/DDAD-in-teams/',
   ignoreDeadLinks: true,
+
+  // 作者信息
+  head: [
+    ['meta', { name: 'author', content: 'Leoo Bai' }]
+  ],
   themeConfig: {
 
     nav: [
@@ -149,6 +154,12 @@ export default defineConfig({
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/leoobai/jiwu-project' }
-    ]
+    ],
+
+    // 页脚配置
+    footer: {
+      message: '作者：Leoo Bai',
+      copyright: `Copyright © 2025 Leoo Bai | <a href="mailto:imleoo@gmail.com">imleoo@gmail.com</a> | <a href="https://leoobai.cn" target="_blank">leoobai.cn</a>`
+    }
   }
 })

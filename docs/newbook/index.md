@@ -36,6 +36,13 @@
 - **附录A**：实用资源与模板库
 - **附录B**：DDAD采纳度调研问卷
 
+## 作者信息
+
+**作者：Leoo Bai**
+- 📧 邮箱：[imleoo@gmail.com](mailto:imleoo@gmail.com)
+- 🌐 网站：[https://leoobai.cn](https://leoobai.cn)
+- 💻 GitHub：[leoobai](https://github.com/leoobai)
+
 ## 开始阅读
 
 本书采用更加结构化和实践导向的写作方式，建议按照章节顺序阅读，也可以根据需要直接跳转到感兴趣的章节。

@@ -22,3 +22,12 @@ features:
     details: DDAD方法论的最新实践总结与前沿AI开发理念
     link: /newbook/
 ---
+
+## 作者简介
+
+**Leoo Bai**
+- 📧 邮箱：[imleoo@gmail.com](mailto:imleoo@gmail.com)
+- 🌐 网站：[https://leoobai.cn](https://leoobai.cn)
+- 💻 GitHub：[leoobai](https://github.com/leoobai)
+
+专注于 AI 驱动的软件开发方法论研究，致力于探索文档驱动敏捷开发（DDAD）在现代团队中的应用与实践。

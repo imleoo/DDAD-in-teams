@@ -34,6 +34,13 @@
 - **第十七章**：完整项目实战
 - **第十八章**：工具与资源
 
+## 作者信息
+
+**作者：Leoo Bai**
+- 📧 邮箱：[imleoo@gmail.com](mailto:imleoo@gmail.com)
+- 🌐 网站：[https://leoobai.cn](https://leoobai.cn)
+- 💻 GitHub：[leoobai](https://github.com/leoobai)
+
 ## 开始阅读
 
 请从左侧导航栏选择章节开始阅读，或直接进入第一部分的内容。

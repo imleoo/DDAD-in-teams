@@ -16,6 +16,13 @@
 - **第六章**：最佳实践与展望 - 风险策略与治理框架
 - **第七章**：实用资源 - 快速参考与提示模板
 
+## 作者信息
+
+**作者：Leoo Bai**
+- 📧 邮箱：[imleoo@gmail.com](mailto:imleoo@gmail.com)
+- 🌐 网站：[https://leoobai.cn](https://leoobai.cn)
+- 💻 GitHub：[leoobai](https://github.com/leoobai)
+
 ## 开始阅读
 
 请从左侧导航栏选择章节开始阅读，或点击下方链接直接进入：
