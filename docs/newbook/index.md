@@ -1,3 +1,21 @@
+---
+title: DDAD最佳实践 | Document-Driven Agile Development 最新手册
+description: 汇总 DDAD（Document-Driven Agile Development）最佳实践与 Vibe Coding 前沿经验，面向 AI 驱动的现代研发团队。
+head:
+  - - meta
+    - name: keywords
+      content: 'DDAD最佳实践, Document-Driven Agile Development, Vibe Coding, AI 开发实践'
+  - - meta
+    - property: og:title
+      content: 'DDAD最佳实践 | Document-Driven Agile Development 最新手册'
+  - - meta
+    - property: og:description
+      content: '面向 AI 驱动团队的 DDAD（Document-Driven Agile Development）最佳实践合集，聚焦 Vibe Coding 与现代研发流程。'
+  - - meta
+    - property: og:type
+      content: article
+---
+
 # DDAD最佳实践
 
 ## 前言
@@ -41,7 +59,7 @@
 **作者：Leoo Bai**
 - 📧 邮箱：[imleoo@gmail.com](mailto:imleoo@gmail.com)
 - 🌐 网站：[https://leoobai.cn](https://leoobai.cn)
-- 💻 GitHub：[leoobai](https://github.com/leoobai)
+- 💻 GitHub：[imleoo](https://github.com/imleoo)
 
 ## 开始阅读
 

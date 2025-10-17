@@ -1,3 +1,21 @@
+---
+title: DDAD 团队实践指南 | Document-Driven Agile Development
+description: 深入掌握文档驱动敏捷开发（DDAD）在团队中的落地流程，围绕 Vibe Coding、AI 协作与风险治理的实操指南。
+head:
+  - - meta
+    - name: keywords
+      content: 'DDAD 团队实践指南, Document-Driven Agile Development, Vibe Coding, 文档驱动敏捷开发, AI 团队协作'
+  - - meta
+    - property: og:title
+      content: 'DDAD 团队实践指南 | Document-Driven Agile Development'
+  - - meta
+    - property: og:description
+      content: '团队如何通过文档驱动敏捷开发（DDAD）与 Vibe Coding 提升协作效率与交付质量。'
+  - - meta
+    - property: og:type
+      content: article
+---
+
 # DDAD 团队实践指南
 
 ## 前言
@@ -21,7 +39,7 @@
 **作者：Leoo Bai**
 - 📧 邮箱：[imleoo@gmail.com](mailto:imleoo@gmail.com)
 - 🌐 网站：[https://leoobai.cn](https://leoobai.cn)
-- 💻 GitHub：[leoobai](https://github.com/leoobai)
+- 💻 GitHub：[imleoo](https://github.com/imleoo)
 
 ## 开始阅读
 

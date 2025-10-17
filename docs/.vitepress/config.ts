@@ -3,14 +3,27 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'zh-CN',
   title: 'DDAD 图书馆',
-  description: '三本图书的文档驱动敏捷开发知识库',
+  description: 'DDAD（Document-Driven Agile Development）与 Vibe Coding 方法论的权威合集',
   srcDir: '.',
   base: '/DDAD-in-teams/',
   ignoreDeadLinks: true,
+  analytics: {
+    googleAnalyticsId: 'G-4ZEGWF8VV4'
+  },
+  sitemap: {
+    hostname: 'https://leoobai.cn'
+  },
 
-  // 作者信息
+  // 作者信息与 SEO 元数据
   head: [
-    ['meta', { name: 'author', content: 'Leoo Bai' }]
+    ['meta', { name: 'author', content: 'Leoo Bai' }],
+    ['meta', { name: 'keywords', content: 'DDAD, Document-Driven Agile Development, Vibe Coding, 文档驱动敏捷开发, AI 开发方法论' }],
+    ['meta', { name: 'description', content: 'DDAD 图书馆收录文档驱动敏捷开发（Document-Driven Agile Development）与 Vibe Coding 的团队实践、实战案例与最佳实践。' }],
+    ['meta', { property: 'og:title', content: 'DDAD 图书馆 | Document-Driven Agile Development' }],
+    ['meta', { property: 'og:description', content: 'DDAD 图书馆收录文档驱动敏捷开发（Document-Driven Agile Development）与 Vibe Coding 的团队实践、实战案例与最佳实践。' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['link', { rel: 'canonical', href: 'https://leoobai.cn/DDAD-in-teams/' }]
   ],
   themeConfig: {
 

@@ -1,3 +1,21 @@
+---
+title: 10x DDAD 实践指南 | 高效能 Document-Driven Agile Development
+description: 聚焦高效能团队的文档驱动敏捷开发指南，结合 Vibe Coding 提升 10x 开发效率。
+head:
+  - - meta
+    - name: keywords
+      content: '10x DDAD 实践指南, Document-Driven Agile Development, Vibe Coding, 高效能开发, 文档驱动敏捷'
+  - - meta
+    - property: og:title
+      content: '10x DDAD 实践指南 | 高效能 Document-Driven Agile Development'
+  - - meta
+    - property: og:description
+      content: '通过 DDAD 与 Vibe Coding 构建高效能团队，实现 10x 文档驱动敏捷开发。'
+  - - meta
+    - property: og:type
+      content: article
+---
+
 # 10x DDAD 实践指南
 
 ## 前言
@@ -39,7 +57,7 @@
 **作者：Leoo Bai**
 - 📧 邮箱：[imleoo@gmail.com](mailto:imleoo@gmail.com)
 - 🌐 网站：[https://leoobai.cn](https://leoobai.cn)
-- 💻 GitHub：[leoobai](https://github.com/leoobai)
+- 💻 GitHub：[imleoo](https://github.com/imleoo)
 
 ## 开始阅读
 
