@@ -11,7 +11,7 @@ export default defineConfig({
     nav: [
       { text: 'DDAD 团队实践指南', link: 'ddad-in-teams/' },
       { text: '10x DDAD 实践指南', link: '10x-ddad-guide/' },
-      { text: '新书体验', link: 'newbook/' }
+      { text: 'DDAD最佳实践', link: 'newbook/' }
     ],
     sidebar: {
       '/ddad-in-teams/': [
@@ -87,7 +87,7 @@ export default defineConfig({
       ],
       '/newbook/': [
         {
-          text: '新书体验',
+          text: 'DDAD最佳实践',
           items: [
             { text: '前言', link: './' }
           ]

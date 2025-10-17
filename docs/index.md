@@ -18,7 +18,7 @@ features:
   - title: 10x DDAD 实践指南
     details: 聚焦高效能团队建设与工作流
     link: /10x-ddad-guide/
-  - title: 新书体验
-    details: 最新章节草稿与结构化知识沉淀
+  - title: DDAD最佳实践
+    details: DDAD方法论的最新实践总结与前沿AI开发理念
     link: /newbook/
 ---
