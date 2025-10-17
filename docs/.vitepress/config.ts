@@ -5,6 +5,7 @@ export default defineConfig({
   title: 'DDAD 图书馆',
   description: '三本图书的文档驱动敏捷开发知识库',
   srcDir: '.',
+  base: '/DDAD-in-teams/',
   ignoreDeadLinks: true,
   themeConfig: {
 
